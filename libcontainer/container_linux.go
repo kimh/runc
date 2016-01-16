@@ -283,6 +283,7 @@ func (c *linuxContainer) newInitProcess(p *Process, cmd *exec.Cmd, parentPipe, c
 	}
 	cmd.Env = append(cmd.Env, t)
 	cmd.SysProcAttr.Cloneflags = cloneFlags
+
 	return &initProcess{
 		cmd:        cmd,
 		childPipe:  childPipe,

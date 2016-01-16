@@ -38,7 +38,7 @@ func (c ErrorCode) String() string {
 	case ConfigInvalid:
 		return "Invalid configuration"
 	case SystemError:
-		return "System error"
+		return "Kim System error"
 	case ContainerNotExists:
 		return "Container does not exist"
 	case ContainerNotStopped:

@@ -256,9 +256,10 @@ func fixStdioPermissions(u *user.ExecUser) error {
 		if s.Rdev == null.Rdev {
 			continue
 		}
-		if err := syscall.Fchown(int(fd), u.Uid, u.Gid); err != nil {
-			return err
-		}
+		// Operation not permitted error on unprivileged container
+		//if err := syscall.Fchown(int(fd), u.Uid, u.Gid); err != nil {
+		//	return err
+		//}
 	}
 	return nil
 }
