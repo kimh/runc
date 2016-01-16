@@ -91,12 +91,7 @@ func FindCgroupMountpointDir() (string, error) {
 			return "", fmt.Errorf("Found no fields post '-' in %q", text)
 		}
 
-		if postSeparatorFields[0] == "cgroup" {
-			// Check that the mount is properly formated.
-			if numPostFields < 3 {
-				return "", fmt.Errorf("Error found less than 3 fields post '-' in %q", text)
-			}
-
+		if postSeparatorFields[0] == "fuse.lxcfs" {
 			return filepath.Dir(fields[4]), nil
 		}
 	}

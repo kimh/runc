@@ -204,9 +204,9 @@ func (p *initProcess) start() (err error) {
 	p.setExternalDescriptors(fds)
 	// Do this before syncing with child so that no children
 	// can escape the cgroup
-	if err := p.manager.Apply(p.pid()); err != nil {
-		return newSystemError(err)
-	}
+	//if err := p.manager.Apply(p.pid()); err != nil {
+	//wSysreturn newSystemError(err)
+	//}
 	defer func() {
 		if err != nil {
 			// TODO: should not be the responsibility to call here
