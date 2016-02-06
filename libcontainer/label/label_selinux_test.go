@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer/selinux"
+	"github.com/kimh/runc/libcontainer/selinux"
 )
 
 func TestInit(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/opencontainers/runc/libcontainer/label"
+	"github.com/kimh/runc/libcontainer/label"
 )
 
 // NewConsole returns an initalized console that can be used within a container by copying bytes

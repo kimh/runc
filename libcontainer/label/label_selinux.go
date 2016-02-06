@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/selinux"
+	"github.com/kimh/runc/libcontainer/selinux"
 )
 
 // Valid Label Options

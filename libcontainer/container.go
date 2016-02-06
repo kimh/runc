@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer/configs"
 )
 
 // The status of a container.

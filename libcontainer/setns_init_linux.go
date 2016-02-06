@@ -5,11 +5,11 @@ package libcontainer
 import (
 	"os"
 
-	"github.com/opencontainers/runc/libcontainer/apparmor"
-	"github.com/opencontainers/runc/libcontainer/keys"
-	"github.com/opencontainers/runc/libcontainer/label"
-	"github.com/opencontainers/runc/libcontainer/seccomp"
-	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/kimh/runc/libcontainer/apparmor"
+	"github.com/kimh/runc/libcontainer/keys"
+	"github.com/kimh/runc/libcontainer/label"
+	"github.com/kimh/runc/libcontainer/seccomp"
+	"github.com/kimh/runc/libcontainer/system"
 )
 
 // linuxSetnsInit performs the container's initialization for running a new process

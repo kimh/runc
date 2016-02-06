@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer"
+	"github.com/kimh/runc/libcontainer"
 	"github.com/vishvananda/netlink/nl"
 )
 

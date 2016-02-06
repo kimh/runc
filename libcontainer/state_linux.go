@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer/configs"
 )
 
 func newStateTransitionError(from, to containerState) error {

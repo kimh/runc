@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer"
+	"github.com/kimh/runc/libcontainer/configs"
 )
 
 func showFile(t *testing.T, fname string) error {

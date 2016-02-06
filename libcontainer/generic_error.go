@@ -6,7 +6,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer/stacktrace"
+	"github.com/kimh/runc/libcontainer/stacktrace"
 )
 
 type syncType uint8

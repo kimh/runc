@@ -15,10 +15,10 @@ import (
 
 	"github.com/docker/docker/pkg/mount"
 	"github.com/docker/docker/pkg/symlink"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/label"
-	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/kimh/runc/libcontainer/cgroups"
+	"github.com/kimh/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer/label"
+	"github.com/kimh/runc/libcontainer/system"
 )
 
 const defaultMountFlags = syscall.MS_NOEXEC | syscall.MS_NOSUID | syscall.MS_NODEV

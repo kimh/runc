@@ -19,10 +19,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/golang/protobuf/proto"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/criurpc"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/kimh/runc/libcontainer/cgroups"
+	"github.com/kimh/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer/criurpc"
+	"github.com/kimh/runc/libcontainer/utils"
 	"github.com/vishvananda/netlink/nl"
 )
 

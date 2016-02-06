@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer"
+	"github.com/kimh/runc/libcontainer"
 )
 
 func TestExecIn(t *testing.T) {

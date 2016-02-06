@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer/cgroups"
+	"github.com/kimh/runc/libcontainer/configs"
 )
 
 type MemoryGroup struct {

@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer"
+	"github.com/kimh/runc/libcontainer/configs"
 )
 
 func newStdBuffers() *stdBuffers {
