@@ -8,8 +8,8 @@ import (
 	"syscall"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/kimh/runc/libcontainer"
+	"github.com/kimh/runc/libcontainer/utils"
 )
 
 const signalBufferSize = 2048

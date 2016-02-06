@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/docker/docker/pkg/term"
-	"github.com/opencontainers/runc/libcontainer"
+	"github.com/kimh/runc/libcontainer"
 )
 
 // newTty creates a new tty for use with the container.  If a tty is not to be

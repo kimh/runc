@@ -15,9 +15,9 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/seccomp"
+	"github.com/kimh/runc/libcontainer/cgroups"
+	"github.com/kimh/runc/libcontainer/configs"
+	"github.com/kimh/runc/libcontainer/seccomp"
 	"github.com/opencontainers/specs"
 )
 

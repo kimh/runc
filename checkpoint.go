@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/codegangsta/cli"
-	"github.com/opencontainers/runc/libcontainer"
+	"github.com/kimh/runc/libcontainer"
 )
 
 var checkpointCommand = cli.Command{
